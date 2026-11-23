@@ -4,26 +4,6 @@
 корінь, степінь, факторіал, відсотки, константи π і e, живий попередній
 перегляд результату.
 
-## Як відкрити
-
-1. Android Studio → **File → Open** → папка `lab3-calculator-android`.
-2. Дочекайтеся **Gradle sync** (перший раз довго, іде завантаження).
-   Якщо Studio питає про оновлення Android Gradle Plugin, натисніть **Update**.
-   Якщо Studio просить встановити SDK Platform 34, погодьтеся.
-3. Оберіть пристрій (емулятор або телефон) і натисніть **Run ▶**.
-
-### Якщо проєкт не відкривається
-Створіть новий проєкт: **New Project → Empty Views Activity**, Language
-**Java**, package `com.student.calculator`, Minimum SDK 24. Потім скопіюйте
-з цього архіву в новий проєкт папку `app/src/main` (java + res +
-AndroidManifest.xml) і додайте в `app/build.gradle` залежності:
-
-```
-implementation 'com.google.android.material:material:1.12.0'
-implementation 'com.jakewharton.timber:timber:5.0.1'
-```
-а в блок `android { }` рядок `buildFeatures { buildConfig true }`.
-
 ## Тести (без телефона)
 
 Ядро обчислень (`engine`) не залежить від Android. Тести запускаються
