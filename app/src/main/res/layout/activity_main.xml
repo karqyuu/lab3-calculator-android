@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/languageButton"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/change_language" />
+
+    <TextView
+        android:id="@+id/expressionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end|bottom"
+        android:minHeight="72dp"
+        android:maxLines="3"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="40sp"
+        app:autoSizeMinTextSize="16sp"
+        app:autoSizeStepGranularity="2sp"
+        app:autoSizeTextType="uniform" />
+
+    <GridLayout
+        android:id="@+id/keypad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

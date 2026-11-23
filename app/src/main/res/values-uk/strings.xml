@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="change_language">Мова</string>
+    <string name="language_dialog_title">Оберіть мову</string>
+    <string name="language_system">Системна</string>
+
+    <string name="error_syntax">Некоректний вираз</string>
+    <string name="error_division_by_zero">Ділення на нуль</string>
+    <string name="error_domain">Значення поза допустимим діапазоном</string>
+    <string name="error_overflow">Результат завеликий</string>
+
+    <string name="cd_clear">Очистити</string>
+    <string name="cd_backspace">Видалити останній символ</string>
+    <string name="cd_equals">Дорівнює</string>
+    <string name="cd_angle_mode">Перемкнути градуси та радіани</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Index 0 is "system default"; its label comes from strings.xml -->
+    <string-array name="language_tags" translatable="false">
+        <item></item>
+        <item>en</item>
+        <item>uk</item>
+        <item>pl</item>
+    </string-array>
+    <!-- Languages are always shown in their own language -->
+    <string-array name="language_names" translatable="false">
+        <item></item>
+        <item>English</item>
+        <item>Українська</item>
+        <item>Polski</item>
+    </string-array>
+</resources>

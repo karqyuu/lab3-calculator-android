@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulator</string>
+    <string name="change_language">Język</string>
+    <string name="language_dialog_title">Wybierz język</string>
+    <string name="language_system">Domyślny systemu</string>
+
+    <string name="error_syntax">Nieprawidłowe wyrażenie</string>
+    <string name="error_division_by_zero">Dzielenie przez zero</string>
+    <string name="error_domain">Wartość poza dozwolonym zakresem</string>
+    <string name="error_overflow">Wynik jest zbyt duży</string>
+
+    <string name="cd_clear">Wyczyść</string>
+    <string name="cd_backspace">Usuń ostatni znak</string>
+    <string name="cd_equals">Równa się</string>
+    <string name="cd_angle_mode">Przełącz stopnie i radiany</string>
+</resources>

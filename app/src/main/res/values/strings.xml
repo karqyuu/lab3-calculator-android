@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="change_language">Language</string>
+    <string name="language_dialog_title">Choose language</string>
+    <string name="language_system">System default</string>
+
+    <string name="error_syntax">Invalid expression</string>
+    <string name="error_division_by_zero">Division by zero</string>
+    <string name="error_domain">Value out of range</string>
+    <string name="error_overflow">Result is too large</string>
+
+    <string name="cd_clear">Clear</string>
+    <string name="cd_backspace">Delete last symbol</string>
+    <string name="cd_equals">Equals</string>
+    <string name="cd_angle_mode">Switch between degrees and radians</string>
+</resources>
